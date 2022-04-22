@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0 (Python 3.9.0 on win32)" generated="20220422 19:49:00.154" rpa="false" schemaversion="3">
+<suite id="s1" name="App" source="C:\Users\Leela\PycharmProjects\Testing\Tests\Wrap\FunctionalTestSuite\app.robot">
+<test id="s1-t1" name="1.Admin Test" line="10">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${web_url}</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220422 19:49:02.741" level="INFO">Opening browser 'chrome' to base url 'http://127.0.0.1:5000/'.</msg>
+<msg timestamp="20220422 19:49:38.338" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20220422 19:49:38.341" level="FAIL">WebDriverException: Message: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=100.0.4896.127)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x01227413+2389011]
+	Ordinal0 [0x011B9F61+1941345]
+	Ordinal0 [0x010AC658+837208]
+	Ordinal0 [0x010A8F28+823080]
+	Ordinal0 [0x0109E27D+778877]
+	Ordinal0 [0x0109EE3D+781885]
+	Ordinal0 [0x0109E48A+779402]
+	Ordinal0 [0x0109DA86+776838]
+	Ordinal0 [0x0109C995+772501]
+	Ordinal0 [0x0109CE6D+773741]
+	Ordinal0 [0x010ADE5A+843354]
+	Ordinal0 [0x011049BD+1198525]
+	Ordinal0 [0x010F414C+1130828]
+	Ordinal0 [0x01104302+1196802]
+	Ordinal0 [0x010F3F66+1130342]
+	Ordinal0 [0x010CE546+976198]
+	Ordinal0 [0x010CF456+980054]
+	GetHandleVerifier [0x013D9632+1727522]
+	GetHandleVerifier [0x0148BA4D+2457661]
+	GetHandleVerifier [0x012BEB81+569713]
+	GetHandleVerifier [0x012BDD76+566118]
+	Ordinal0 [0x011C0B2B+1968939]
+	Ordinal0 [0x011C5988+1989000]
+	Ordinal0 [0x011C5A75+1989237]
+	Ordinal0 [0x011CECB1+2026673]
+	BaseThreadInitThunk [0x775E6359+25]
+	RtlGetAppContainerNamedObjectPath [0x77A887A4+228]
+	RtlGetAppContainerNamedObjectPath [0x77A88774+180]
+</msg>
+<status status="FAIL" starttime="20220422 19:49:02.740" endtime="20220422 19:49:38.490"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="NOT RUN" starttime="20220422 19:49:38.493" endtime="20220422 19:49:38.494"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220422 19:49:38.495" endtime="20220422 19:49:38.496"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath=//html/body/header/div[1]/button/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220422 19:49:38.515" endtime="20220422 19:49:38.516"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220422 19:49:38.517" endtime="20220422 19:49:38.518"/>
+</kw>
+<kw name="1st Username">
+<status status="NOT RUN" starttime="20220422 19:49:38.520" endtime="20220422 19:49:38.521"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220422 19:49:38.522" endtime="20220422 19:49:38.522"/>
+</kw>
+<kw name="1st Password">
+<status status="NOT RUN" starttime="20220422 19:49:38.524" endtime="20220422 19:49:38.525"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220422 19:49:38.526" endtime="20220422 19:49:38.527"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>xpath=//html/body/div/div/div/form/table/tbody/tr[3]/td[2]/button</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220422 19:49:38.529" endtime="20220422 19:49:38.530"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220422 19:49:38.532" endtime="20220422 19:49:38.532"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="NOT RUN" starttime="20220422 19:49:38.534" endtime="20220422 19:49:38.534"/>
+</kw>
+<doc>This test is used for Admin Login Test</doc>
+<tag>Admin</tag>
+<status status="FAIL" starttime="20220422 19:49:02.738" endtime="20220422 19:49:38.539">WebDriverException: Message: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=100.0.4896.127)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x01227413+2389011]
+	Ordinal0 [0x011B9F61+1941345]
+	Ordinal0 [0x010AC658+837208]
+	Ordinal0 [0x010A8F28+823080]
+	Ordinal0 [0x0109E27D+778877]
+	Ordinal0 [0x0109EE3D+781885]
+	Ordinal0 [0x0109E48A+779402]
+	Ordinal0 [0x0109DA86+776838]
+	Ordinal0 [0x0109C995+772501]
+	Ordinal0 [0x0109CE6D+773741]
+	Ordinal0 [0x010ADE5A+843354]
+	Ordinal0 [0x011049BD+1198525]
+	Ordinal0 [0x010F414C+1130828]
+	Ordinal0 [0x01104302+1196802]
+	Ordinal0 [0x010F3F66+1130342]
+	Ordinal0 [0x010CE546+976198]
+	Ordinal0 [0x010CF456+980054]
+	GetHandleVerifier [0x013D9632+1727522]
+	GetHandleVerifier [0x0148BA4D+2457661]
+	GetHandleVerifier [0x012BEB81+569713]
+	GetHandleVerifier [0x012BDD76+566118]
+	Ordinal0 [0x011C0B2B+1968939]
+	Ordinal0 [0x011C5988+1989000]
+	Ordinal0 [0x011C5A75+1989237]
+	Ordinal0 [0x011CECB1+2026673]
+	BaseThreadInitThunk [0x775E6359+25]
+	RtlGetAppContainerNamedObjectPath [0x77A887A4+228]
+	RtlGetAppContainerNamedObjectPath [0x77A88774+180]
+</status>
+</test>
+<test id="s1-t2" name="2.Admin Add" line="26">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${web_url}</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220422 19:49:38.555" level="INFO">Opening browser 'chrome' to base url 'http://127.0.0.1:5000/'.</msg>
+<msg timestamp="20220422 19:49:56.022" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-2.png"&gt;&lt;img src="selenium-screenshot-2.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20220422 19:49:56.023" level="FAIL">WebDriverException: Message: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=100.0.4896.127)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x01227413+2389011]
+	Ordinal0 [0x011B9F61+1941345]
+	Ordinal0 [0x010AC658+837208]
+	Ordinal0 [0x010A8F28+823080]
+	Ordinal0 [0x0109E27D+778877]
+	Ordinal0 [0x0109EE3D+781885]
+	Ordinal0 [0x0109E48A+779402]
+	Ordinal0 [0x0109DA86+776838]
+	Ordinal0 [0x0109C995+772501]
+	Ordinal0 [0x0109CE6D+773741]
+	Ordinal0 [0x010ADE5A+843354]
+	Ordinal0 [0x011049BD+1198525]
+	Ordinal0 [0x010F414C+1130828]
+	Ordinal0 [0x01104302+1196802]
+	Ordinal0 [0x010F3F66+1130342]
+	Ordinal0 [0x010CE546+976198]
+	Ordinal0 [0x010CF456+980054]
+	GetHandleVerifier [0x013D9632+1727522]
+	GetHandleVerifier [0x0148BA4D+2457661]
+	GetHandleVerifier [0x012BEB81+569713]
+	GetHandleVerifier [0x012BDD76+566118]
+	Ordinal0 [0x011C0B2B+1968939]
+	Ordinal0 [0x011C5988+1989000]
+	Ordinal0 [0x011C5A75+1989237]
+	Ordinal0 [0x011CECB1+2026673]
+	BaseThreadInitThunk [0x775E6359+25]
+	RtlGetAppContainerNamedObjectPath [0x77A887A4+228]
+	RtlGetAppContainerNamedObjectPath [0x77A88774+180]
+</msg>
+<status status="FAIL" starttime="20220422 19:49:38.552" endtime="20220422 19:49:56.025"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="NOT RUN" starttime="20220422 19:49:56.027" endtime="20220422 19:49:56.028"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath=//html/body/header/div[1]/button/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220422 19:49:56.030" endtime="20220422 19:49:56.031"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220422 19:49:56.032" endtime="20220422 19:49:56.032"/>
+</kw>
+<kw name="1st Username">
+<status status="NOT RUN" starttime="20220422 19:49:56.034" endtime="20220422 19:49:56.035"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220422 19:49:56.036" endtime="20220422 19:49:56.037"/>
+</kw>
+<kw name="1st Password">
+<status status="NOT RUN" starttime="20220422 19:49:56.038" endtime="20220422 19:49:56.038"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220422 19:49:56.039" endtime="20220422 19:49:56.039"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>xpath=//html/body/div/div/div/form/table/tbody/tr[3]/td[2]/button</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220422 19:49:56.040" endtime="20220422 19:49:56.040"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220422 19:49:56.042" endtime="20220422 19:49:56.042"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath=//html/body/header/nav/a[1]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220422 19:49:56.047" endtime="20220422 19:49:56.047"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220422 19:49:56.049" endtime="20220422 19:49:56.049"/>
+</kw>
+<kw name="2nd Category">
+<status status="NOT RUN" starttime="20220422 19:49:56.050" endtime="20220422 19:49:56.050"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220422 19:49:56.051" endtime="20220422 19:49:56.052"/>
+</kw>
+<kw name="2nd Product Name">
+<status status="NOT RUN" starttime="20220422 19:49:56.052" endtime="20220422 19:49:56.053"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220422 19:49:56.054" endtime="20220422 19:49:56.054"/>
+</kw>
+<kw name="2nd Price">
+<status status="NOT RUN" starttime="20220422 19:49:56.055" endtime="20220422 19:49:56.055"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220422 19:49:56.056" endtime="20220422 19:49:56.056"/>
+</kw>
+<kw name="2nd Image">
+<status status="NOT RUN" starttime="20220422 19:49:56.057" endtime="20220422 19:49:56.057"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220422 19:49:56.058" endtime="20220422 19:49:56.059"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>xpath=//html/body/section/h4/div/div/div/form/table/tbody/tr[5]/td[2]/button</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220422 19:49:56.061" endtime="20220422 19:49:56.061"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220422 19:49:56.062" endtime="20220422 19:49:56.062"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="NOT RUN" starttime="20220422 19:49:56.063" endtime="20220422 19:49:56.063"/>
+</kw>
+<doc>This test is used for Admin Add Test</doc>
+<tag>Admin Add</tag>
+<status status="FAIL" starttime="20220422 19:49:38.548" endtime="20220422 19:49:56.065">WebDriverException: Message: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=100.0.4896.127)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x01227413+2389011]
+	Ordinal0 [0x011B9F61+1941345]
+	Ordinal0 [0x010AC658+837208]
+	Ordinal0 [0x010A8F28+823080]
+	Ordinal0 [0x0109E27D+778877]
+	Ordinal0 [0x0109EE3D+781885]
+	Ordinal0 [0x0109E48A+779402]
+	Ordinal0 [0x0109DA86+776838]
+	Ordinal0 [0x0109C995+772501]
+	Ordinal0 [0x0109CE6D+773741]
+	Ordinal0 [0x010ADE5A+843354]
+	Ordinal0 [0x011049BD+1198525]
+	Ordinal0 [0x010F414C+1130828]
+	Ordinal0 [0x01104302+1196802]
+	Ordinal0 [0x010F3F66+1130342]
+	Ordinal0 [0x010CE546+976198]
+	Ordinal0 [0x010CF456+980054]
+	GetHandleVerifier [0x013D9632+1727522]
+	GetHandleVerifier [0x0148BA4D+2457661]
+	GetHandleVerifier [0x012BEB81+569713]
+	GetHandleVerifier [0x012BDD76+566118]
+	Ordinal0 [0x011C0B2B+1968939]
+	Ordinal0 [0x011C5988+1989000]
+	Ordinal0 [0x011C5A75+1989237]
+	Ordinal0 [0x011CECB1+2026673]
+	BaseThreadInitThunk [0x775E6359+25]
+	RtlGetAppContainerNamedObjectPath [0x77A887A4+228]
+	RtlGetAppContainerNamedObjectPath [0x77A88774+180]
+</status>
+</test>
+<test id="s1-t3" name="3.Admin Delete" line="53">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${web_url}</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220422 19:49:56.074" level="INFO">Opening browser 'chrome' to base url 'http://127.0.0.1:5000/'.</msg>
+<errors>
+<msg timestamp="20220422 19:50:15.793" level="ERROR">Execution stopped by user.</msg>
+</errors>
+</robot>
